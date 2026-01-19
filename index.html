@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday</title>
+  <link rel="icon" href="aset birthday/cake.png" type="image/x-icon">
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="scene">
+    <h1 class="title"> Happy Birthday <span class="emoji">🎂</span>
+    </h1>
+
+      <img src="aset birthday/cake.png" class="cake" alt="Pixel Cake">
+      <button class="next-btn" id="nextBtn">Next</button>
+    </div>
+
+  <script>
+    document.getElementById("nextBtn").addEventListener("click", () => {
+      window.location.href = "message.html";
+    });
+  </script>
+
+</body>
+</html>
